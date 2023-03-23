@@ -1,4 +1,4 @@
 
 > # **El Zero Web School Assignments**
 ---
-   > You will find in this reepository el zero web school assignments solution   
+   > You will find in this repository el zero web school assignments solution   
