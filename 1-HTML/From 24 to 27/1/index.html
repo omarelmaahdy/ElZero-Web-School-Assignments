@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Froms</title>
+  </head>
+  <body>
+    <form action="" method="post">
+      <!-- Username -->
+      <label for="username">Username</label> <br />
+      <input
+        type="text"
+        id="username"
+        required
+        placeholder="Type your username"
+        name="username"
+      />
+      <hr />
+      <br />
+      <!-- Password -->
+      <label for="Password">Password</label><br />
+      <input
+        type="password"
+        id="password"
+        required
+        placeholder="Type your password"
+        name="password"
+      />
+      <br />
+      <hr />
+      <!-- Mobile -->
+      <label for="Mobile">Mobile Number</label> <br />
+      <input
+        type="text"
+        id="mobile"
+        placeholder="ex. : +20100 (234) 12"
+        name="mobile"
+      />
+      <br />
+      <hr />
+      <!-- Email -->
+      <label for="Email">Email</label> <br />
+      <input
+        type="email"
+        id="email"
+        required
+        placeholder="Type your Email"
+        name="email"
+      />
+      <br />
+      <hr />
+      <!-- Email -->
+      <label for="Subject">Subject</label> <br />
+      <textarea
+        name="Subject"
+        id="Subject"
+        cols="30"
+        rows="10"
+        placeholder="what's in your mind?"
+      ></textarea>
+      <br />
+      <input type="hidden" name="important" value="1234567" /> <br />
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>

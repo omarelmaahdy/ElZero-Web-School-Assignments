@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" method="get">
+      <label for="Username">Username</label> <br />
+      <input
+        type="text"
+        id="Username"
+        name="username"
+        required
+        placeholder="Enter Your Username"
+        minlength="5"
+        maxlength="20"
+        autofocus
+      />
+      <br />
+      <label for="Email">Email</label> <br />
+      <input type="email" name="Email" value="o@o.com" readonly />
+      <br />
+      <input
+        type="hidden"
+        name="token"
+        value="b92f1fc2fce391ad7af633723afd3055"
+      />
+      <br />
+      <hr />
+      <label for="skills">Skills:</label> <br />
+      <input type="checkbox" id="Planning" />
+      <label for="Planning"> Planning</label> <br />
+      <input type="checkbox" id="Analysis" />
+      <label for="Analysis"> Analysis</label> <br />
+      <input type="checkbox" id="Advanced Search" />
+      <label for="Advanced Search"> Advanced Search</label> <br />
+      <input type="checkbox" id="Logical Thinking" />
+      <label for="Logical Thinking"> Logical Thinking</label> <br />
+      <input type="checkbox" id="Problem Solving" />
+      <label for="Problem Solving"> Problem Solving</label> <br />
+      <hr />
+      <label for="Jobs">Your job:</label> <br />
+      <select name="Jobs" id="Jobs">
+        <option value="Scrum Master">Scrum Master</option>
+        <option value="Project Manager">Project Manager</option>
+        <option value="Business Analyst">Business Analyst</option>
+        <option value="Back-End Developer">Back-End Developer</option>
+        <option value="Front-End Developer">Front-End Developer</option>
+      </select>
+      <br />
+      <br />
+      <hr />
+      <input type="submit" value="Send" />
+      <input type="reset" value="Empty" />
+    </form>
+  </body>
+</html>
